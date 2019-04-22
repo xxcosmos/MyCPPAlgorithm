@@ -26,8 +26,7 @@ node fish[maxn];
 
 int times[maxn][maxn];     //记录每个湖钓鱼时间
 
-int main() {
-
+int GoneFishing() {
     int n, h;
     while (scanf("%d", &n) != EOF && n) {
         scanf("%d", &h);
