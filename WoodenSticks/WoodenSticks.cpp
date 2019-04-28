@@ -17,7 +17,7 @@ bool operator<(const node &l, const node &r) {
 
 int flag[5002];
 
-int WoodenSticks() {
+int wooden_sticks() {
     int t, n, i, j, s, m;
     cin >> t;
     while (t--) {

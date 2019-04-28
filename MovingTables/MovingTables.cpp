@@ -12,7 +12,7 @@ void swap(int &a, int &b) {
     b = t;
 }
 
-int main() {
+int moving_tables() {
     int n, m, a, b, max;
     cin >> n;
     while (n--) {
