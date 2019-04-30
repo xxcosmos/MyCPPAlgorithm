@@ -36,7 +36,7 @@ void outputLIS(int *arr, int index) {
         return;
     }
     if (dp[index] == length) {
-        --length;
+        length--;
         isLIS = true;
     }
 
